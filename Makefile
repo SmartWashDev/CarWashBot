@@ -2,7 +2,7 @@
 TAIL=100
 
 # Позволяет с помощью переменной `c` указать конкретный контейнер из `docker-compose`.
-# Например, make logs c='celery'
+# Например, make logs c=nats
 define set-default-container
 	ifndef c
 	c = bot
