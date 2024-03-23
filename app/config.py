@@ -2,7 +2,6 @@ import logging
 import sys
 
 from pydantic import ConfigDict
-
 from pydantic_settings import BaseSettings
 
 
