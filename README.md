@@ -36,3 +36,7 @@ venv/Scripts/activate
 ```bash
 pip install -r requirements.txt
 ```
+Запустить бота
+```bash
+python -m app
+```
