@@ -9,7 +9,6 @@ dependencies = [
     "nats-py",
     "pydantic-settings",
     "pre-commit",
-    "minio",
 ]
 
 
