@@ -8,12 +8,15 @@ dependencies = [
     "aiogram",
     "nats-py",
     "pydantic-settings",
-    "pre-commit"
+    "pre-commit",
 ]
 
 
 [tool.setuptools]
 py-modules = []
+
+[tool.mypy]
+plugins = ["pydantic.plugin"]
 
 [tool.isort]
 profile = 'black'

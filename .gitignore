@@ -1,5 +1,6 @@
 # Python
 venv/
+.venv/
 __pycache__
 /*.egg-info
 
@@ -9,3 +10,6 @@ __pycache__
 # Project
 .env
 /storage
+
+# VSCode
+.vscode/
